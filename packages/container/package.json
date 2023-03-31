@@ -1,0 +1,9 @@
+{
+  "name": "@pnpm8/container",
+  "main": "src/index.ts",
+  "version": "1.0.0",
+  "dependencies": {
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  }
+}

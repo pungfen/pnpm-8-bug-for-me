@@ -1,0 +1,26 @@
+{
+  "name": "pnpm-8-bug-for-me",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "esno start.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@ugdu/packer": "^1.0.6",
+    "@ugdu/processor": "^1.0.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "esno": "^0.16.3",
+    "vite": "^4.2.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vue"
+      ]
+    }
+  }
+}
